@@ -181,7 +181,7 @@ var moverocks = setInterval(() => {
 
   if (rocks != undefined) {
     for (var i = 0; i < rocks.length; i++) {
-      //Now I have to increase the top of each rock,so that the rocks can move downwards..
+      //ökar hastigheten av ghost.
       var rock = rocks[i]; //getting each rock
       var rocktop = parseInt(
         window.getComputedStyle(rock).getPropertyValue("top")
